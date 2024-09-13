@@ -51,13 +51,13 @@ a{
 .header .nav .menu li a{
     color: #ffffff;
     font-size: 16px;
-
     text-align: center;
     text-decoration: none;
     display: block;
     width: 60px;
     line-height: 69px;
     margin: 0px 11px;
+    box-sizing: border-box;
 }
 .header .nav .menu li a:hover{
     color: #00CC99;;
@@ -388,23 +388,17 @@ a{
 }
 .header-qa .banner .search-bar{
     width: 620px;
-    height: 52px;
     background-color: #ffffff;
     border: 0px;
     border-radius: 5px;
-    padding: 12px;
+    padding: 15px;
     margin-top: 45px;
 }
 .header-qa .banner .search-btn{
-    width: 28px;
-    height: 28px;
     background-color: #ffffff;
-    background-image: url(../images/search.png);
-    background-size: 28px 28px;
     border: 0px;
     position: relative;
-    top: 12px;
-    right: 46px;
+    right: 50px;
 }
 .header .banner button:hover{
     cursor: pointer;

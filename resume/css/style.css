@@ -1,5 +1,7 @@
 body{
     font-family: MicrosoftJhengHei;
+}
+a{
     text-decoration: none;
 }
 .wrap{
@@ -17,7 +19,7 @@ body{
     text-align: center;
     padding: 125px 0 0 135px;
 }
-.header .headshot .name{
+.header .headshot h1{
     color: #000000;
     font-size: 42px;
     line-height: 56px;
@@ -40,6 +42,9 @@ body{
 .header .icon img{
     max-width: 100%;
     padding: 12px;
+}
+.header .icon a{
+    color: #fafafa;
 }
 .content h2{
     color: #1736DC;
